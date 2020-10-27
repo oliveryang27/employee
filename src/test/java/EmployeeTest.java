@@ -58,7 +58,7 @@ public class EmployeeTest {
   }
   
   @Test
-  public void testAnEmployeePromotedAndThenToFindFindManagers() {
+  public void testAnEmployeePromotedAndThenToFindManagers() {
     Employee roger = new Employee(1, "Roger", null);
     Employee peter = new Employee(2, "Peter", roger);
     Employee ryan = new Employee(3, "Ryan", peter);
